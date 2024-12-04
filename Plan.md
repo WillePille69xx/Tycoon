@@ -23,4 +23,7 @@ Right now all your able to do is mine ores, and sell ores. So next up I'll be ad
 in order to make the game more entertaining and engaging... I just realized I did not follow the plan // I 
 I Made the first lesson so I feel like I wasted my time doing it.
 
-2024-12-04: Today I plan to add the Upgrades function in the game.
+2024-12-04: Today I plan to add the Upgrades function in the game. Okay I went a bit of course because I
+Noticed a error in my code which resulted in when I mine a ore and the same ore spawns again it spawns with
+0 hp. It was an easy fix all i had to to was import copy create a copy so that when a new ore spawn the old
+ones attributes remains the same as its original.
