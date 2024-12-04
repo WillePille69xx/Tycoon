@@ -24,7 +24,8 @@ upgrades = [
 
 # Function to spawn an ore
 def spawn_ore():
-    random.choice(ores)
+    ore = random.choice(ores) # Random ore type
+    return copy.deepcopy(ore) # Creates a fresh copy of the ore
 
 # Function to mine an ore
 def mine_ore(ore):
